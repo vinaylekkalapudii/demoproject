@@ -10,6 +10,7 @@ services:
 
   app:
     image: ${IMAGE_NAME}:${IMAGE_TAG}
+    container_name: custom-app-name
     environment:
       MYSQL_HOST: mysql
       MYSQL_PORT: 3306
